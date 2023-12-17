@@ -1,0 +1,41 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Dino Ultralight Sweatshirt",
+            "price": 58.00,
+            "img" : "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGXXX1952.webp"
+        },
+        {
+            "id": 2,
+            "name": "Chrome Dino Sweater",
+            "price": 85.00,
+            "img" : "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGXXX2244.webp"
+        },
+        {
+            "id": 3,
+            "name": "Chrome Dino Mug",
+            "price": 14.00,
+            "img" : "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGDWQ223399.webp"
+        },
+        {
+            "id": 4,
+            "name": "Dino Light-up Water Bottle",
+            "price": 24.00,
+            "img" : "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGDHB163199.webp"
+        },
+        {
+            "id": 5,
+            "name": "Dino Game Over Mug",
+            "price": 50.00,
+            "img" : "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGDWB211499.webp"
+        },
+        {
+            "id": 6,
+            "name": "Chrome Dino Scarf",
+            "price": 27.00,
+            "img" : "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGCBC220610.webp"
+        }
+        
+    ]
+}
