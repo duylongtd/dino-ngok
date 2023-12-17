@@ -9,7 +9,7 @@ import swal from "sweetalert";
 const Home = () => {
     //get local storage
     const [cart, setCart] = useState<CartItem[]>(localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart') || '{}') : []);
-    const [wishList, setWishList] = useState<Product[]>(localStorage.getItem('wishList') ? JSON.parse(localStorage.getItem('wishList') || '{}') : []);
+    const [wishList, setWishList] = useState<Product[]>(localStorage.getItem('wishlist') ? JSON.parse(localStorage.getItem('wishlist') || '{}') : []);
 
     //set list as localstorage
     // const [wishList, setWishList] = useState<Product[]>(wishListLocal as Product[]);
@@ -23,6 +23,7 @@ const Home = () => {
             const newWishList = wishList.filter((x) => x.id !== product.id);
             setWishList(newWishList);
         }
+        localStorage.setItem('wishlist', JSON.stringify([...wishList, product]));
     }
 
     const addToCart = (product: Product) => {

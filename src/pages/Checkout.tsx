@@ -10,8 +10,8 @@ const Checkout = () => {
   const cartLocal = localStorage.getItem("cart")
     ? JSON.parse(localStorage.getItem("cart") || "{}")
     : [];
-  const wishList = localStorage.getItem("wishList")
-    ? JSON.parse(localStorage.getItem("wishList") || "{}")
+  const wishList = localStorage.getItem("wishlist")
+    ? JSON.parse(localStorage.getItem("wishlist") || "{}")
     : [];
 
   const [cart, setCart] = useState(cartLocal as CartItem[]);
